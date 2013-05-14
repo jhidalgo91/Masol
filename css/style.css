@@ -1,0 +1,111 @@
+/* 
+    Document   : style
+    Created on : 13-may-2013, 20:15:02
+    Author     : AlexHid.es
+    Description:
+        Purpose of the stylesheet follows.
+*/
+a:link {
+    color: #2F3146;
+    text-decoration: none;
+}
+a:visited {
+    text-decoration: none;
+    color: #2F3146;
+}
+a:hover {
+    text-decoration: none;
+    color: #2F3146;
+}
+a:active {
+    text-decoration: none;
+    color: #2F3146;
+}			
+
+body{
+    background-color:#fff;
+    font-family: Verdana;
+    margin: 0 auto;
+    padding: 0;
+    font-size:16px;
+    color: #303F46;
+    font-weight:normal; 
+}
+img{	border:0px;	}
+h1{
+    font-size: 36px;
+    color: #2F3146;
+}
+h2, h3{
+    font-size: 30px;
+    color: #2F3146;
+    font-weight: bolder;
+    margin-top: 0px;
+    margin-bottom: 12px;
+}
+h3{
+    font-size: 24px;
+}
+h4{
+    font-size: 16px;
+    font-weight: bold;
+    color: #303F46;
+}
+.noticiasMasLeidas h3{margin: 2px; font-size: 16px; margin-top: 25px;}
+.contacto h3{margin: 2px; font-size: 16px; margin-top: 25px;}
+#centro{ /*Fondo negro de encabezado*/
+    background-color: #000;
+    height: 100px
+}
+#contenedor{
+    height: auto;
+    margin: 0 auto;
+    width: 960px;
+}
+#encabezado{
+    height: 65px;
+    width: 960px;
+    float: left;
+    position: relative;
+    margin: 0px auto;
+    left: 50%;
+    margin-left: -480px;
+    padding-top: 35px;
+}
+#contenidoPagina{
+    margin: 0 auto;
+    width: 860px;
+    left: 50%;
+    margin-left: -450px;
+    position: relative;
+    float: left;
+    clear: both;
+}
+#img_logo{
+    position: relative;
+    float: left;
+}
+#buscador_form{
+    position: relative;
+    float: right;
+    top: 28px;
+}
+.buscador{
+    width: 220px;
+}
+.copyright
+{
+    clear:both;
+    position:relative;
+    float:left;
+    text-align:center;
+    font-size:9px;
+    width:860px;
+    margin:0 auto;
+    margin-top: 10px;
+    left: 50%;
+    margin-left: -450px;
+}
+.copyright span{
+    margin-left: 45px;
+}
