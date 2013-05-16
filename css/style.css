@@ -57,10 +57,12 @@ h4{
     background-color: #000;
     height: 100px
 }
+#fondoMenu{
+    background-color: #F0EEEB;
+    height: 40px
+}
 #contenedor{
     height: auto;
-    margin: 0 auto;
-    width: 960px;
 }
 #encabezado{
     height: 65px;
@@ -74,18 +76,18 @@ h4{
 }
 #contenidoPagina{
     margin: 0 auto;
-    width: 860px;
+    width: 960px;
     left: 50%;
-    margin-left: -450px;
+    margin-left: -480px;
     position: relative;
     float: left;
     clear: both;
 }
-#img_logo{
+#imgLogo{
     position: relative;
     float: left;
 }
-#buscador_form{
+#buscadorForm{
     position: relative;
     float: right;
     top: 28px;
@@ -107,5 +109,168 @@ h4{
     margin-left: -450px;
 }
 .copyright span{
-    margin-left: 45px;
+    margin-left: 44px;
+}
+/* MENÚ */
+.menu  {
+    list-style-type: none;
+    position: relative;
+    float: left;
+    margin-top: 0px auto;
+    margin-bottom: 10px;
+    margin-left: -480px;
+    left: 50%;
+    padding: 0px;   
+    height: 40px;
+    width: 960px;
+}
+.menu ul{
+    width: 960px;
+    height: 40px;
+    margin: 0;
+    padding: 0;
+}
+/* si es necesario, evitamos que Blogger de problemas con los saltos de línea cuando escribimos el HTML */
+
+/* cada item del menu */
+.menu ul li {
+    background-color: #F0EEEB;
+    border-right-color: #fff;
+    border-right-width: 2px;
+    display: block;
+    float: left;
+    list-style: none;
+    margin: 0;
+    position: relative;
+    border-right-style: solid;
+    height: 40px;
+    width: auto;
+}
+.menu li a {
+    color: black;
+    display: block;
+    font-size: 13px;
+    line-height: 18px;
+    text-decoration: none;
+    text-align: center;
+    padding: 10px;
+    padding-left: 25px;
+    padding-right: 25px;
+}
+.menu li:first-child{ border-left: none; }
+.menu li:last-child{ border-right: none; }
+
+.menu ul li:hover{ 
+    background-color: #D8D8D8; 
+    color: #000; 
+    width: auto;
+}
+/*
+/* eliminamos los bordes del primer y el último 
+/* efecto hover cambia el color 
+/* los submenús 
+.menu ul {
+    border-radius: 0 0 5px 5px;
+    left: 0;
+    margin: 0;
+    opacity: 0; /* no son visibles 
+    position: absolute;
+    z-index: 1000;
+    top: 17px; /* se ubican debajo del enlace principal 
+    /* animamos su visibildiad 
+    -moz-transition: opacity .25s ease .1s;
+    -webkit-transition: opacity .25s ease .1s;
+    -o-transition: opacity .25s ease .1s;
+    -ms-transition: opacity .25s ease .1s;
+    transition: opacity .25s ease .1s;
+}
+/* son visibes al poner el cursor encima 
+.menu li:hover > ul { opacity: 1; backface-visibility: visible; }
+
+/* cada un ode los items de los submenús 
+.menu ul li {
+    height: 0; /* no son visibles 
+    overflow: hidden;
+    padding: 0;
+    background:#F8BD2D;
+    margin-top: 5px;
+    margin-left: -40px;
+    margin-bottom: -3px;
+    z-index: 5000;
+    /* animamos su visibildiad 
+    -moz-transition: height .25s ease .1s;
+    -webkit-transition: height .25s ease .1s;
+    -o-transition: height .25s ease .1s;
+    -ms-transition: height .25s ease .1s;
+    transition: height .25s ease .1s;
+}
+.menu ul li a {
+    margin: 0;
+    width: 100px;
+}
+/* el último n otiene un borde 
+.menu ul li:last-child a { border: none; }
+.menu ul li ul{
+    margin-left: 102px;
+    margin-top: -22px;
+}
+/*FIN MENU*/
+.restoPagina{
+    position: relative;
+    float: left;
+    margin-top: 15px;
+    width: 960px;
+    height: 250px;
+}
+
+.capaGrande, .capaGrande2{
+    width: 490px;
+    height: 250px;
+    background-color: #303F46;
+    position: relative;
+    float: left;
+}
+.capaPeq, .capaPeq2{
+    width: 220px;
+    height: 250px;
+    background-color: #303F46;
+    margin-left: 15px;
+    position: relative;
+    float: left;
+}
+.capaPeq2{
+    margin-left: 0px;
+    margin-right: 15px;
+}
+.capaFoto{
+    width: 725px;
+    height: 250px;
+    position: relative;
+    float:left;
+    background-color: #303F46;;
+
+}
+.capaRedes{
+    width: 220px;
+    height: 250px;
+    position: relative;
+    margin-left: 15px;
+    float:left;
+    background-color: #303F46;;
+}
+.listaFabricantes{
+    position: relative;
+    float: left;
+    width: 960;
+    height: auto;
+}
+ul.listadoFabricantes{
+    list-style: none;
+    float: left;
+    font-size: 9px;
+    padding: 0;
+}
+li.listing{
+    width: 127px;
+    margin-right: 10px;
 }
